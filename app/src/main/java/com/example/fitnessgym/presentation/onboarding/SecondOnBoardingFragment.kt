@@ -6,12 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.fitnessgym.R
-import com.example.fitnessgym.databinding.FragmentFirstOnBoardingBinding
+import com.example.fitnessgym.databinding.FragmentSecondOnBoardingBinding
+import com.example.fitnessgym.presentation.HomeFragment
 import com.example.fitnessgym.presentation.MainActivity
 import com.example.fitnessgym.utilits.replaceFragmentMain
 
-class FirstOnBoardingFragment : Fragment() {
-    private var _binding : FragmentFirstOnBoardingBinding? = null
+class SecondOnBoardingFragment : Fragment() {
+    private var _binding : FragmentSecondOnBoardingBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -19,9 +20,9 @@ class FirstOnBoardingFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentFirstOnBoardingBinding.inflate(inflater, container, false)
+        _binding = FragmentSecondOnBoardingBinding.inflate(inflater, container, false)
 
-        binding.btNext.setOnClickListener { replaceFragmentMain(SecondOnBoardingFragment()) }
+        binding.btNext.setOnClickListener { replaceFragmentMain(HomeFragment()) }
 
         return binding.root
     }

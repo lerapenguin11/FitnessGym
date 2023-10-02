@@ -4,4 +4,8 @@
     <string name="home">Home</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="onboarding1">This app is designed to help you keep track of your health and fitness. It offers various functions and features that will help you improve your lifestyle and achieve your fitness and health goals.</string>
+    <string name="onboarding2">This application presents workouts of different difficulty levels that will help you keep yourself in good physical shape. These workouts are designed by professional trainers and are offered to you in a convenient format through the app.</string>
+    <string name="start">Start</string>
 </resources>

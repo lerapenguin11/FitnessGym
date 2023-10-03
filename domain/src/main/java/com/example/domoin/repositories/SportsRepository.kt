@@ -7,4 +7,6 @@ interface SportsRepository {
     suspend fun getTop(topList : MutableList<Sports>) : MutableList<Sports>
 
     suspend fun getPopular(popularList : MutableList<Sports>) : MutableList<Sports>
+
+    suspend fun getClasses(classesList : MutableList<Sports>) : MutableList<Sports>
 }

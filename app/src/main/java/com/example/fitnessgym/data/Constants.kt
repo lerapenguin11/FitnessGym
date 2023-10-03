@@ -25,4 +25,14 @@ object Constants {
 
         return sportsList
     }
+
+    fun getClassesData() : MutableList<Sports>{
+        var sportsList = mutableListOf<Sports>()
+
+        val sp1 = Sports(1, SportsInfo(R.string.name_top1, R.string.name_top1, R.string.name_top1,
+            "https://www.vixyvideo.com/wp-content/uploads/2018/01/header-basic-fit-case.jpg", R.string.name_top1, R.string.name_top1, R.string.name_top1, R.string.name_top1))
+        sportsList.add(sp1)
+
+        return sportsList
+    }
 }

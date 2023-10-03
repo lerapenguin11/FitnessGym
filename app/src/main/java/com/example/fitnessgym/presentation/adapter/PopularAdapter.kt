@@ -11,12 +11,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import com.bumptech.glide.request.RequestOptions
 import com.example.domoin.entities.Sports
 import com.example.fitnessgym.R
 import com.example.fitnessgym.presentation.adapter.listener.PopularListener
-import com.example.fitnessgym.сustomView.CustomImageView
 
 class PopularAdapter(
     private val listener : PopularListener

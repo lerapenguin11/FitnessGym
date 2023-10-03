@@ -10,4 +10,6 @@
     <string name="start">Start</string>
     <string name="top_challenge">Top challenge</string>
     <string name="popular_challenge">Popular challenge</string>
+
+    <string name="name_top1">Body pump</string>
 </resources>

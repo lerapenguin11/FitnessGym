@@ -25,17 +25,28 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <!--<com.example.fitnessgym.сustomView.CustomImageView
-                        android:id="@+id/ic_popular"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        tools:srcCompat="@tools:sample/backgrounds/scenic"/>-->
+            <ImageView
+                android:id="@+id/ic_popular"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/bg_iv_radius"
+                android:clipToOutline="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic"
+                tools:targetApi="s" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
             android:layout_height="94dp"
             android:padding="10dp"
+            android:layout_marginStart="-5dp"
+            android:background="@drawable/bg_popular3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/constraintLayout3"

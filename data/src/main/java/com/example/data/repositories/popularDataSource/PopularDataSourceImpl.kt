@@ -1,15 +1,13 @@
-package com.example.data.repositories.topDataSourse
+package com.example.data.repositories.popularDataSource
 
-import com.example.data.repositories.topDataSourse.TopDataSource
 import com.example.domoin.entities.Sports
 import com.example.domoin.entities.SportsInfo
 
-class TopDataSourceImpl : TopDataSource {
-
-    override suspend fun getTopData(topList: MutableList<Sports>): MutableList<Sports> {
+class PopularDataSourceImpl : PopularDataSource {
+    override suspend fun getPopularData(popularList: MutableList<Sports>): MutableList<Sports> {
         val list = mutableListOf<Sports>()
 
-        for (i in topList){
+        for (i in popularList){
             val id = i.id
             val name = i.info.name
             val kcal = i.info.kcal
@@ -27,9 +25,9 @@ class TopDataSourceImpl : TopDataSource {
                     min = min,
                     icon = icon,
                     energy = energy,
-                level = level,
-                star = star,
-                description = desc)
+                    level = level,
+                    star = star,
+                    description = desc)
             )
 
             list.add(listLetterModel)

@@ -19,4 +19,13 @@ class HomeViewModel(
 
         return mutableData
     }
+
+    fun getResultPopular(): MutableList<Sports> {
+        var mutableData = mutableListOf<Sports>()
+        viewModelScope.launch{
+            mutableData = getTopUseCase.invoke(Constants.getPopularData())
+        }
+
+        return mutableData
+    }
 }

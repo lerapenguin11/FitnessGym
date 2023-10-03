@@ -20,6 +20,47 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+            <TextView
+                android:id="@+id/tv_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:textColor="#070E40"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="4 out of 5" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:backgroundTint="#FFB400"
+                android:foregroundTint="#FFB400"
+                android:isIndicator="true"
+                android:progressBackgroundTint="#9EA6B3"
+                android:progressTint="#FFB400"
+                android:rating="3.7"
+                android:stepSize="0.1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_star"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
@@ -27,13 +68,13 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="148dp"
+                android:layout_width="150dp"
                 android:layout_height="55dp"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
                 android:background="@drawable/bg_bt"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -42,37 +83,37 @@
                     android:id="@+id/tv_name_classes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:text="Body Pump"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:includeFontPadding="false"
                     android:textColor="@color/color2"
                     android:textSize="14sp"
-                    android:includeFontPadding="false"
-                    android:fontFamily="@font/poppins_semibold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Body Pump" />
 
                 <TextView
                     android:id="@+id/tv_level_classes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:text="Amateur Level"
                     android:fontFamily="@font/poppins"
                     android:includeFontPadding="false"
                     android:textColor="@color/color2"
                     android:textSize="12sp"
-                    app:layout_constraintVertical_bias="1"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_name_classes" />
+                    app:layout_constraintTop_toBottomOf="@+id/tv_name_classes"
+                    app:layout_constraintVertical_bias="1"
+                    tools:text="Amateur Level" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/bg_item_classes2"
                 android:paddingStart="15dp"
+                android:paddingTop="8dp"
                 android:paddingEnd="15dp"
                 android:paddingBottom="8dp"
-                android:paddingTop="8dp"
-                android:background="@drawable/bg_item_classes2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -81,8 +122,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_bold"
-                    android:textColor="@color/white"
                     android:includeFontPadding="false"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

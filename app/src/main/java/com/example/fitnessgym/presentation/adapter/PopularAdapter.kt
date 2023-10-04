@@ -41,6 +41,9 @@ class PopularAdapter(
 
         holder.icon.clipToOutline = true
         holder.energy.setText(popular.info.energy)
+        holder.itemView.setOnClickListener {
+            listener.popularDetails(popular)
+        }
     }
 
     @SuppressLint("NotifyDataSetChanged")

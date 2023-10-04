@@ -8,5 +8,6 @@ data class SportsInfo(
     val energy : Int,
     val level : Int,
     val star : Int,
+    val starText : Int,
     val description : Int
 )

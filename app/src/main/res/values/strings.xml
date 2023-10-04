@@ -11,8 +11,133 @@
     <string name="top_challenge">Top challenge</string>
     <string name="popular_challenge">Popular challenge</string>
     <string name="star">out of 5</string>
-
-    <string name="name_top1">Body pump</string>
     <string name="details">Details</string>
 
+    <!--top-->
+    <string name="name_top1">Body pump</string>
+    <string name="name_top2">HIIT</string>
+    <string name="name_top3">Zumba</string>
+
+    <string name="description_top1">1. Set up your equipment: Place a barbell on the floor with weight plates of your desired resistance. Also, position an adjustable step or bench nearby.\n
+2. Warm-up: Begin with 5-10 minutes of cardio exercises like jogging or jumping jacks to increase your heart rate and warm up your muscles.\n
+3. Squats: Load the barbell with an appropriate weight. Stand with feet shoulder-width apart and the barbell resting on your shoulders. Lower your body into a squat position, keeping your chest up and knees aligned with your toes. Push through your heels and return to the starting position. Repeat for multiple reps.\n
+4. Chest exercises: Adjust the step or bench to a decline or flat position. Load the barbell with weights suitable for your chest exercises such as bench presses or chest flies. Perform the chosen exercises with proper form, focusing on engaging your chest muscles and maintaining control throughout each repetition.\n
+5. Back exercises: Adjust the step or bench to an incline position. Use the barbell or dumbbells to perform exercises like bent-over rows or deadlifts. Maintain a neutral spine and engage your back muscles while executing each movement.\n
+6. Triceps exercises: Using a lighter weight or removing some plates from the barbell, perform triceps-focused exercises like overhead extensions or triceps dips. Focus on extending your elbows and contracting your triceps during each repetition.\n
+7. Bicep exercises: Use dumbbells or a lighter barbell for bicep curls or hammer curls. Keep your elbows close to your sides and contract your bicep muscles while performing each repetition.\n
+8. Lunges: Remove the weights from the barbell or use a separate set of dumbbells. Step forward with one leg and lower your body until both knees are at a 90-degree angle. Push back to the starting position and repeat with the other leg.\n
+9. Shoulder exercises: Use dumbbells or a lighter barbell for shoulder presses, lateral raises, or upright rows. Maintain proper posture and engage your shoulder muscles throughout each repetition.\n
+10. Core exercises: Perform exercises like planks, Russian twists, or crunches to target your core muscles. Focus on proper form and engage your core throughout each movement.\n
+11. Cool-down: Finish with 5-10 minutes of stretching exercises to help your muscles recover and prevent stiffness.\n
+Remember to adjust the weight loads according to your fitness level and always prioritize proper form to prevent injuries.</string>
+    <string name="description_top2">1. Warm-up: Begin with a dynamic warm-up to prepare your body for exercise. This can include jogging in place, jumping jacks, or lunges.\n
+2. Choose an exercise: Select a high-intensity exercise such as sprinting, burpees, jumping rope, or cycling.\n
+3. Set intervals: Divide your workout into intervals of high intensity and active recovery. For example, you could do 30 seconds of intense exercise followed by 30 seconds of lower-intensity exercise or rest.\n
+4. Perform the intervals: Start with the high-intensity exercise, giving it your maximum effort. Then transition to the active recovery phase where you continue to move but at a slower pace or with lighter resistance.\n
+5. Repeat: Repeat the intervals for a total of 15-20 minutes or as desired. Aim for about 4-6 sets depending on your fitness level.\n
+6. Cool down: End the workout with a cool-down period to gradually lower your heart rate. This can involve stretching exercises or walking at a slower pace.\n
+Remember to listen to your body, stay hydrated, and modify the exercises or intervals as needed to match your fitness level. It\'s always a good idea to consult with a healthcare professional before starting any new exercise routine.\n</string>
+    <string name="description_top3">1. Find a suitable space: Clear an area in your home or join a Zumba class at a local gym or community center.\n
+2. Dress comfortably: Wear workout clothes and supportive shoes that allow for easy movement.\n
+3. Warm up: Start with a few minutes of light aerobic exercises like jogging or jumping jacks to warm up your body.\n
+4. Follow the instructor: If you\'re attending a class, listen to the instructor and mimic their dance moves. If you\'re doing it at home, follow along with a Zumba video or online tutorial.\n
+5. Move to the music: Zumba is a fusion of Latin and international dance styles, so let loose and enjoy the rhythm. Incorporate various dance movements like salsa, merengue, reggaeton, and hip-hop.\n
+6. Maintain good form: Pay attention to your posture, engage your core muscles, and keep your movements controlled and fluid.\n
+7. Stay hydrated: Take breaks to drink water and stay hydrated throughout the session.\n
+8. Cool down: Finish the workout with a few minutes of stretching to cool down your body and prevent muscle soreness.\n
+Remember, Zumba is about having fun while getting active, so don\'t worry about being perfect. Just enjoy the music and let your body move!</string>
+    <!--top-->
+
+    <!--popular-->
+    <string name="name_popular1">CrossFit</string>
+    <string name="name_popular2">Yoga</string>
+    <string name="name_popular3">Pilates</string>
+
+    <string name="description_popular1">1. Warm-up: Begin with a dynamic warm-up that includes exercises like jogging, jumping jacks, high knees, and arm circles to prepare your body for the upcoming workout.\n
+2. Set up equipment: Gather any necessary equipment specific to the workout, such as barbells, kettlebells, or medicine balls. Make sure the equipment is properly set up and adjusted to your needs.\n
+3. Review the workout: Understand the prescribed workout, including the specific exercises, sets, reps, and time domains. Familiarize yourself with the movements and any scaling options if needed.\n
+4. Begin the workout: Start with proper technique and form. Maintain good posture, engage your core, and focus on performing each exercise with full range of motion.\n
+5. Pace yourself: CrossFit workouts can be intense, so pace yourself accordingly. Push hard but avoid going all-out from the beginning. Strive for consistency throughout the workout.\n
+6. Take breaks if needed: If you feel fatigued or need to catch your breath, take short breaks during the workout. Listen to your body and avoid pushing beyond your limits.\n
+7. Scale as necessary: Modify the workout to suit your fitness level and capabilities. Choose appropriate weights, modify movements, or adjust repetitions as needed to ensure safety and proper execution.\n
+8. Cool down and stretch: After completing the workout, cool down with light aerobic activity, such as walking or slow cycling. Follow it up with static stretches to help reduce muscle tension and promote recovery.\n
+9. Track your progress: Keep a record of your workouts, noting weights used, times achieved, and any modifications made. This will help you track your progress and set goals for future workouts. Remember to consult with a qualified CrossFit coach or trainer for personalized guidance and to ensure proper form and technique.</string>
+    <string name="description_popular2">1. Find a suitable space: Choose a quiet and clean area with enough room for you to move freely.\n
+2. Warm up: Start with gentle stretches to warm up your body and prepare it for the yoga practice.\n
+3. Choose a style: Decide on the type of yoga you want to practice, such as Hatha, Vinyasa, or Ashtanga. Each style has its own focus and intensity level.\n
+4. Set an intention: Take a moment to reflect on why you\'re practicing yoga and set an intention for your session. It could be to increase flexibility, reduce stress, or find inner peace.\n
+5. Follow a sequence or create your own: You can either follow a pre-designed sequence from a yoga instructor or create your own flow by combining different poses. Start with basic poses and gradually progress to more challenging ones.\n
+6. Focus on alignment and breathing: Pay attention to your body\'s alignment in each pose to avoid strain or injury. Breathe deeply and rhythmically throughout the practice, syncing your breath with your movements.\n
+7. Modify as needed: Listen to your body and modify poses if necessary. Use props like blocks or straps to support your practice and make it more accessible.\n
+8. Cool down and relax: End your session with a cool-down period, incorporating gentle stretches and relaxation poses. Finish with a few minutes of savasana (corpse pose) to allow your body to fully absorb the benefits of the practice.\n
+Remember to consult a qualified yoga instructor if you\'re new to yoga or have any specific health concerns. Enjoy your yoga practice and listen to your body\'s needs along the way!</string>
+    <string name="description_popular3">1. Warm up: Start with gentle stretches and movements to prepare your body for the workout.\n
+2. Set up your mat: Find a comfortable and supportive surface to place your exercise mat.\n
+3. Focus on breathing: Pilates emphasizes controlled and mindful breathing. Inhale deeply through your nose, expanding your ribcage, and exhale fully through your mouth, engaging your core muscles.\n
+4. Engage your core: Activate your deep abdominal muscles by pulling your belly button towards your spine.\n
+5. Follow a routine: Pilates typically involves a series of exercises that target different muscle groups. Work through the exercises in a sequential order, paying attention to proper form and alignment.\n
+6. Maintain control: Pilates emphasizes slow and controlled movements. Avoid rushing through the exercises and focus on maintaining proper technique throughout.\n
+7. Pay attention to alignment: Align your body correctly to ensure you engage the right muscles and prevent strain or injury. Listen to any cues from your instructor or follow a video tutorial if you\'re exercising at home.\n
+8. Modify as needed: If an exercise feels too challenging or causes discomfort, feel free to modify it to suit your ability level or seek guidance from a qualified instructor.\n
+9. Cool down: After completing the exercises, finish with a cool-down period. Stretch your muscles gently and allow your heart rate to gradually return to normal.\n
+10. Stay consistent: To reap the benefits of Pilates, aim to incorporate regular practice into your fitness routine. Consistency is key for progress and improvement.\n
+Remember to consult with a certified Pilates instructor before starting any new exercise program to ensure proper guidance and safety.</string>
+    <!--popular-->
+
+    <!--kcal-->
+    <string name="kcal1">450 kcal</string>
+    <string name="kcal2">400 kcal</string>
+    <string name="kcal3">850 kcal</string>
+    <string name="kcal4">750 kcal</string>
+    <string name="kcal5">650 kcal</string>
+    <string name="kcal6">550 kcal</string>
+    <string name="kcal7">350 kcal</string>
+    <!--kcal-->
+
+    <!--min-->
+    <string name="min1">10 min</string>
+    <string name="min2">20 min</string>
+    <string name="min3">30 min</string>
+    <string name="min4">40 min</string>
+    <string name="min5">50 min</string>
+    <string name="min6">60 min</string>
+    <!--min-->
+
+    <!--energy-->
+    <string name="energy1">High energy</string>
+    <string name="energy2">Low energy</string>
+    <!--energy-->
+
+    <!--level-->
+    <string name="level1">Amateur Level</string>
+    <string name="level2">Beginner Level</string>
+    <!--level-->
+
+    <!--starText-->
+    <string name="starText4">4 out of 5</string>
+    <string name="starText5">5 out of 5</string>
+    <!--starText-->
+
+    <!--classes-->
+    <string name="name_classes1">Boxing</string>
+    <string name="name_classes2">Tabata</string>
+
+    <string name="desc_classes1">1. Warm up: Start with a dynamic warm-up to prepare your muscles and joints for the intense activity ahead. This can include light jogging, jumping jacks, arm circles, and shadowboxing.\n
+2. Shadowboxing: Stand in front of a mirror or an imaginary opponent and practice your punches, footwork, and defensive movements. Focus on maintaining proper form and technique.\n
+3. Bag work: Move to a heavy bag or a punching bag and perform a variety of punches and combinations. Practice jabs, hooks, uppercuts, and straight punches while incorporating head movement and footwork. Aim for speed, accuracy, and power.\n
+4. Pad work: If you have a training partner or coach, they can hold focus mitts or pads for you to strike. Work on different combinations and practice your timing and accuracy while your partner provides feedback and adjusts the intensity.\n
+5. Conditioning exercises: Include conditioning exercises to improve your overall fitness and endurance. Jump rope, perform burpees, push-ups, sit-ups, squats, and other bodyweight exercises that target your core, arms, legs, and cardiovascular system.\n
+6. Sparring (optional): If you\'re at an advanced level and have acquired proper skills and experience, you may choose to engage in controlled sparring sessions with a trained partner. Ensure safety by using protective gear and following the rules.\n
+7. Cool down and stretch: Finish your boxing workout with a cool-down routine. Gradually decrease the intensity of your movements and perform static stretches to help prevent muscle soreness and promote flexibility.\n
+Remember, it\'s essential to train under the supervision of a qualified coach or trainer, especially when starting out. They can guide you on proper techniques, ensure safety, and help you progress effectively in your boxing training.</string>
+    <string name="desc_classes2">1. Choose an exercise: Select a cardio or strength-based exercise that engages multiple muscle groups, such as burpees, squats, or push-ups.\n
+2. Set your timer: Use a stopwatch or Tabata timer app to track the intervals. Each round consists of 8 cycles, with each cycle lasting 20 seconds of intense exercise followed by 10 seconds of rest.\n
+3. Warm up: Begin with a light warm-up to prepare your body for the intense workout. You can do some dynamic stretches or perform low-intensity versions of the exercises you\'ll be doing during the Tabata workout.\n
+4. Start the first cycle: Begin the first 20-second interval, going all out and performing the chosen exercise at maximum intensity.\n
+5. Take a 10-second break: After completing the 20 seconds of work, take a 10-second break to catch your breath and prepare for the next cycle.\n
+6. Repeat for 8 cycles: Continue alternating between 20 seconds of intense exercise and 10 seconds of rest for a total of 8 cycles. Remember to maintain proper form and technique throughout.\n
+7. Cool down: Once you\'ve completed all 8 cycles, perform a cooldown routine consisting of gentle stretches or light aerobic activity to gradually lower your heart rate and prevent muscle soreness.\n
+It\'s important to note that Tabata workouts are highly demanding, so it\'s crucial to listen to your body and adjust the intensity or exercise selection if needed. Always consult with a healthcare professional before starting any new exercise program.</string>
+
+    <!--classes-->
 </resources>

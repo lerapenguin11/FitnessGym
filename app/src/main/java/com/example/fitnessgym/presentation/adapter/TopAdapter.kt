@@ -10,8 +10,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.domoin.entities.Sports
 import com.example.fitnessgym.R
+import com.example.fitnessgym.presentation.adapter.listener.TopListener
 
-class TopAdapter() : RecyclerView.Adapter<TopAdapter.TopViewHolder>(){
+class TopAdapter(private val listener : TopListener) : RecyclerView.Adapter<TopAdapter.TopViewHolder>(){
 
     private val topList = mutableListOf<Sports>()
 
@@ -31,6 +32,8 @@ class TopAdapter() : RecyclerView.Adapter<TopAdapter.TopViewHolder>(){
         Glide.with(holder.itemView)
             .load(top.info.icon)
             .into(holder.icon)
+
+        holder.itemView.setOnClickListener { listener.topDetails(top) }
     }
 
     @SuppressLint("NotifyDataSetChanged")

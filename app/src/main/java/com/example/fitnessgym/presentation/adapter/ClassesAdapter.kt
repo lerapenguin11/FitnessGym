@@ -10,8 +10,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.domoin.entities.Sports
 import com.example.fitnessgym.R
+import com.example.fitnessgym.presentation.adapter.listener.ClassesListener
 
-class ClassesAdapter() : RecyclerView.Adapter<ClassesAdapter.ClassesViewHolder>(){
+class ClassesAdapter(private val listener : ClassesListener) : RecyclerView.Adapter<ClassesAdapter.ClassesViewHolder>(){
 
     private val classesList = mutableListOf<Sports>()
 
@@ -32,7 +33,9 @@ class ClassesAdapter() : RecyclerView.Adapter<ClassesAdapter.ClassesViewHolder>(
         holder.min.setText(classes.info.min)
         holder.ratingBar.rating = classes.info.star.toFloat()
         holder.ratingBar.numStars = 5
-        holder.rating.text = "${classes.info.star} ${R.string.star}"
+        holder.rating.setText(classes.info.starText)
+
+        holder.itemView.setOnClickListener { listener.classesDetails(classes) }
     }
 
     @SuppressLint("NotifyDataSetChanged")

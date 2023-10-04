@@ -19,6 +19,7 @@ class TopDataSourceImpl : TopDataSource {
             val level = i.info.level
             val star = i.info.star
             val desc = i.info.description
+            val starText = i.info.starText
 
             val listLetterModel = Sports(
                 id = id, info = SportsInfo(
@@ -29,7 +30,8 @@ class TopDataSourceImpl : TopDataSource {
                     energy = energy,
                 level = level,
                 star = star,
-                description = desc)
+                description = desc,
+                starText = starText)
             )
 
             list.add(listLetterModel)
